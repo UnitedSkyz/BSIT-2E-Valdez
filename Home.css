@@ -73,6 +73,16 @@ nav ul li a {
     color: #BE93D4;
 }
 
+@keyframes homeAnimation {
+    0% { transform: translate(-50%, -500%); opacity: 0%; }
+    100% { transform: translate(-50%, 15%); opacity: 100%; }
+}
+
+@keyframes homeAnimation2 {
+    0% { transform: translate(-50%, -500%); opacity: 0%; }
+    100% { transform: translate(-50%, 50%); opacity: 100%; }
+}
+
 @media (max-width: 768px) {
     .bg-text, .bg-p1 {
         width: 90%;
